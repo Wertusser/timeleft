@@ -1,0 +1,36 @@
+name: timeleft
+version: "0.0.5"
+author: George M. <wertusser@gmail.com>
+about: Counts the time remaining to deadline.
+args:
+  - time:
+      short: t
+      long: time
+      value_name: TIME
+      help: Sets deadline time (by default next day is deadline). Use 24-hour format like 21:34 or 21:34:00.
+      takes_value: true
+  - all:
+      short: a
+      long: all
+      help: Return all information about time until deadline
+  - hour:
+      short: H
+      long: hours
+      help: Return number of whole hours until deadline
+  - minute:
+      short: m
+      long: minutes
+      help: Return number of whole minutes until deadline
+  - second:
+      short: s
+      long: seconds
+      help: Return number of whole seconds until deadline
+#subcommands:
+#  - test:
+#      about: controls testing features
+#      version: "1.3"
+#      author: Someone E. <someone_else@other.com>
+#      args:
+#        - debug:
+#            short: d
+#            help: print debug information

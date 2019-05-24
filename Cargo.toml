@@ -1,0 +1,10 @@
+[package]
+name = "timeleft"
+version = "0.0.5"
+authors = ["wertusser <wertusser@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+clap = {version = "*", features = ["yaml"]}
+chrono = "*"
+colored = "1.8"
