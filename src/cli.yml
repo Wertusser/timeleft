@@ -1,5 +1,5 @@
 name: timeleft
-version: "0.0.5"
+version: "0.0.6"
 author: George M. <wertusser@gmail.com>
 about: Counts the time remaining to deadline.
 args:
@@ -7,7 +7,7 @@ args:
       short: t
       long: time
       value_name: TIME
-      help: Sets deadline time (by default next day is deadline). Use 24-hour format like 21:34 or 21:34:00.
+      help: Sets deadline time (by default next day is deadline). Use 24-hour format like 21:34:00 or 21:34.
       takes_value: true
   - all:
       short: a
